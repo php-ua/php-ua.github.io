@@ -1,4 +1,4 @@
-php-ua.github.io
+http://phpfriends.club
 ================
 
-PHP UA Comminty pages
+PHP Friends Club Ukraine
