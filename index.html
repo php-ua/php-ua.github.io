@@ -29,15 +29,7 @@
   </head>
 
   <body>
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TR5828"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TR5828');</script>
-    <!-- End Google Tag Manager -->
+
 
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -65,11 +57,33 @@
       </div>
     </nav>
 
+    <style>
+      .header-image {
+        text-align:center;
+      }
+
+      @media (max-width:1200px) {
+        .header-image {
+          width: 800px;
+        }
+      }
+      @media (max-width:991px) {
+        .header-image {
+          width: 600px;
+        }
+      }
+      @media (max-width:720px) {
+        .header-image {
+          width: 260px;
+        }
+      }
+
+    </style>
     <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <p><img src="./images/header-round.png" /></p>
+        <p><img class="header-image" src="./images/header-round.png" /></p>
         <p>PHP Friends - это новое украинское сообщество разработчиков, интересующихся, PHP и Web разработкой.
         Группа создана для обмена опытом, и общения с единомышленниками.</p>
         <p>Сообщество планирует проводить регулярные офлайн встречи. Темы встреч не ограничиваются PHP, поговорим и про тестирование и про DevOps, а то и про Монаду.
